@@ -1,3 +1,23 @@
+Blockchain Explorer
+Wallet:
+Web
+Windows
+Linux
+Mac
+iOS
+Android
+
+Miner for GPU
+Miner for CPU
+
+
+## Seed node on AWS
+
+sudo apt-get update
+sudo apt install build-essential libqt4-dev qt5-qmake cmake qttools5-dev libqt5webkit5-dev qttools5-dev-tools qt5-default python-sphinx texlive-latex-base inotify-tools openssl libssl-dev libdb++-dev libminiupnpc-dev git sqlite3 libsqlite3-dev g++ libpng-dev gedit python gcc make libbz2-dev libdb-dev libssl-dev libreadline-dev autoconf libtool libleveldb-dev libblkid-dev e2fslibs-dev libboost-all-dev libaudit-dev nano qtbase5-dev qt4-dev-tools libqtcore4 libqtgui4 automake -y﻿
+git clone https://github.com/sirsjg/stratocoin.git
+cd stratocoin
+make
 
 
 This is the reference code for [CryptoNote](https://cryptonote.org) cryptocurrency protocol.
